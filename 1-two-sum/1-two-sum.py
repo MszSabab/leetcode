@@ -5,3 +5,5 @@ class Solution:
             if nums[i] in check.keys():
                 return [i,check[nums[i]]]
             check[target-nums[i]]=i
+            
+#copy
